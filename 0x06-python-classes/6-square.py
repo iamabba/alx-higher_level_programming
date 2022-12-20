@@ -6,6 +6,7 @@ Create a Class Square with:
 - getters & setters.
 """
 
+
 class Square:
     """Class - Square"""
 
