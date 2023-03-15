@@ -1,10 +1,10 @@
 #!/usr/bin/node
 const dict = require('./101-data').dict;
 
-let result = {};
+const result = {};
 
-for (let key in dict) {
-  let count = dict[key];
+for (const key in dict) {
+  const count = dict[key];
   if (count in result) {
     result[count].push(key);
   } else {
